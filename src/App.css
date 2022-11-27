@@ -1,0 +1,66 @@
+body {
+  background-color: lightblue;
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.mainSection {
+  background: transparent;
+  max-width: 600px;
+  width: 90%;
+  height: 500px;
+  margin: 30px auto;
+}
+.setTime {
+  width: 1000px;
+  height: 50px;
+  display: flex;
+  margin: 250px 0px 25px 300px;
+  padding: 0px 0px 0px 0px;
+  align-items: center;
+}
+input {
+  width: 200px;
+  height: 30px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  color: #00ABA9;
+}
+button {
+  width: 100px;
+  height: 30px;
+  margin: 0px 0px 0px 20px;
+  cursor: pointer;
+  border-radius: 6px;
+  border: 2px solid #00ABA9;
+  background-color: lightblue;
+  color: #00ABA9;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 700;
+}
+.clockHolder {
+   width: 700px;
+  height: 50px;
+  display: flex;
+  margin: 25px 0px 25px 300px;
+  padding: 0px 0px 0px 0px;
+  align-items: center;
+}
+.stopWatch {
+  padding: 0px 0px;
+  /* text-align: center; */
+}
+.stopWatch span {
+  display: inline-block;
+  font-family: monospace;
+  font-size: 40px;
+  font-weight: 800;
+  padding: 00px;
+  border-radius: 5px;
+  width: 70px;
+  color: #317c7b;
+}
